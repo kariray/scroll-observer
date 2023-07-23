@@ -1,0 +1,16 @@
+div {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 10%;
+  background-color: bisque;
+  border: 1px solid tomato;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+.visible {
+  transform: scale(1);
+  opacity: 1;
+}
